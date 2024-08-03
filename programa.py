@@ -47,15 +47,17 @@ if __name__ == "__main__":
     print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
 
 # # 5 Crea una función que calcule el área de un círculo dado su radio.
-# import math
+import math
 
-# def area_circulo(radio):
-#     area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
-#     # Se devuelve el área calculada
+def area_circulo(radio):
+    area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
+    # Se devuelve el área calculada
+    return area
 
-# if __name__ == "__main__":
-#     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
-#     # Se imprime el área calculada del círculo
+if __name__ == "__main__":
+    radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
+    # Se imprime el área calculada del círculo
+    print(area_circulo(radio))
 
 # # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
 # def suma(a, b):
